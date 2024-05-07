@@ -1,0 +1,13 @@
+---
+import CustomButton from './Button.astro';
+---
+
+<h1>This contact card</h1>
+<CustomButton title='Helllo BOI' count={10} />
+<h1>-</h1>
+<slot>
+	<p>This is my fallback content, if there is no child passed into slot</p>
+</slot>
+<footer>
+	<p>Footer</p>
+</footer>

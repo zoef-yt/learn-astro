@@ -1,0 +1,9 @@
+---
+interface Props {
+	title: string;
+	count?: number;
+}
+const { title, count } = Astro.props;
+---
+
+<button> {title} - {count}</button>
